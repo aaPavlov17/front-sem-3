@@ -1,0 +1,40 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: inherit;
+}
+
+.input-container.full-width {
+    width: 100%;
+}
+
+.input-label {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-primary, #333);
+}
+
+.input-field {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: var(--primary, #007bff);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.input-field.input-error {
+    border-color: #ff4444;
+}
+
+.input-error-message {
+    color: #ff4444;
+    font-size: 12px;
+}

@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.storybook
+storybook-static
+playwright-report
+test-results
+backend/node_modules
+backend/src/shop.db
+backend/src/data
+*.log
+.env
